@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/cityStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "solidfuel", 10 ]}
+		{"item" : ["lunarbasebunk", 1]}
+      ]
+    }]]
+  }
+]

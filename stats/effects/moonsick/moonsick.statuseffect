@@ -1,0 +1,25 @@
+{
+  "name" : "moonsick",
+  "blockingStat" : "moonsickimmunity",
+
+  "effectConfig" : {
+    "directives" : "fade=AAAAFF=0.3",
+    "movementModifiers" : {
+      "speedModifier" : 0.6,
+      "airJumpModifier" : 0.6
+    },
+    "tickRate" : 20,
+    "energyCost" : 5,
+    "healthDamage" : 1
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "biomecold.lua"
+  ],
+
+  "animationConfig" : "moonsick.animation",
+
+  "label" : "Moonsick",
+  "icon" : "/interface/statuses/moonsick.png"
+}

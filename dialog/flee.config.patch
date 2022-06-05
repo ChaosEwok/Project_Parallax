@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/city",
+		"value": {
+			"default": [
+				"Oh no!",
+				"I'm unarmed!",
+				"Uh-oh...",
+				"Oh crap!",
+				"*gulps*",
+				"*clears throat* I must go.",
+				"What's wrong with me?"
+			]
+		}
+	}
+]

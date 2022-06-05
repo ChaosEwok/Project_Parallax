@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/city",
+		"value" : [
+		    "/ships/city/cityt0.structure",
+			"/ships/city/cityt1.structure",
+			"/ships/city/cityt2.structure",
+			"/ships/city/cityt3.structure",
+			"/ships/city/cityt4.structure",
+			"/ships/city/cityt5.structure",
+			"/ships/city/cityt6.structure",
+			"/ships/city/cityt7.structure",
+			"/ships/city/cityt8.structure"
+		]
+	}
+]
