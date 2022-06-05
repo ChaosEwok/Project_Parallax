@@ -1,0 +1,44 @@
+{
+  "objectName" : "Celestial Forgecrafting",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "???",
+  "shortdescription" : "^orange;Craft Station^white;",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/Celestial Forgecrafter.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Craft Station",
+        "subtitle" : " ^#b9b5b2;???",
+        "icon" : {
+          "file" : "/interface/crafting/craftingCelestial Forge.png"
+        }
+      }
+    },
+    "filter" : [ "Celestial Forgecrafter" ]
+  },
+  "printable" : false,
+  "price" : 65,
+  "apexDescription" : "?",
+  "avianDescription" : "?",
+  "floranDescription" : "?",
+  "glitchDescription" : "?",
+  "humanDescription" : "?",
+  "hylotlDescription" : "?",
+  "novakidDescription" : "?",
+  "inventoryIcon" : "Celestial Forgecraftingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Celestial Forgecrafting.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "npcToy" : {}
+}

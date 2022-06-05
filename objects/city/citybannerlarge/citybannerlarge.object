@@ -1,0 +1,29 @@
+{
+  "objectName" : "citybannerlarge",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A large city wallbanner from a city academy.",
+  "shortdescription" : "Large city Wall Banner",
+  "race" : "city",
+  "apexDescription" : "This banner is large...",
+  "avianDescription" : "A large banner",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A large city banner...",
+  "humanDescription" : "The city banner quite lovely.",
+  "hylotlDescription" : "The banner is just lovely.",
+  "novakidDescription" : "This would look great in my house.",
+  "cityDescription" : "Ceremonial banners like this are made by the Sharded.",  
+  "inventoryIcon" : "citybannerlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "citybannerlarge.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

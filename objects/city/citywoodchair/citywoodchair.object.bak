@@ -1,0 +1,31 @@
+{
+  "objectName" : "citywoodchair",
+  "colonyTags" : ["city"],
+  "rarity" : "Common",
+  "description" : "A basic wooden chair.",
+  "shortdescription" : "Reinforced Wooden Chair",
+  "race" : "city",
+  "category" : "furniture",
+  "price" : 75,
+  "apexDescription" : "An armored wooden chair.",
+  "avianDescription" : "A wooden chair with a purple pillow on it.",
+  "floranDescription" : "Pillow make chair sssoft.",
+  "glitchDescription" : "Curious. A normal wooden chair, it somehow has metal on it.",
+  "humanDescription" : "A simple little chair.",
+  "hylotlDescription" : "An unremarkable wooden chair.",
+  "novakidDescription" : "A chair made outta wood.",
+  "inventoryIcon" : "citywoodchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "citywoodchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+}

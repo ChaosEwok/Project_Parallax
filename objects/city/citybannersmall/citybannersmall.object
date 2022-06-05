@@ -1,0 +1,29 @@
+{
+  "objectName" : "citybannersmall",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A small city wallbanner from a city academy.",
+  "shortdescription" : "Small city Wall Banner",
+  "race" : "city",
+  "apexDescription" : "This banner is small...",
+  "avianDescription" : "A small banner",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A small city banner...",
+  "humanDescription" : "The city banner quite lovely.",
+  "hylotlDescription" : "The banner is just lovely.",
+  "novakidDescription" : "This would look great in my house.",
+  "cityDescription" : "This banner is unfinished, because it's small.",  
+  "inventoryIcon" : "citybannersmallicon.png",
+  "orientations" : [
+    {
+      "image" : "citybannersmall.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}
