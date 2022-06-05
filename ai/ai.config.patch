@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/city",
+		"value" : {
+			"aiFrames" : "cityAI.png",
+			"portraitFrames" : "portraits/cityportrait.png",
+			"staticFrames" : "staticcity.png"	
+		}
+	}
+]
