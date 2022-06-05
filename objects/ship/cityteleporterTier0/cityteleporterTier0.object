@@ -1,0 +1,45 @@
+{
+  "objectName" : "cityteleporterTier0",
+  "colonyTags" : ["city"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A teleporter. It corrupted during takeoff",
+  "shortdescription" : "Corrupted Citinoid Teleporter",
+  "race" : "city",
+  "apexDescription" : "The ship's teleporter. I need to power it and decorrupt it..",
+  "avianDescription" : "The teleporter. If only this one was powered up.",
+  "floranDescription" : "Ship teleporter. This one broken.",
+  "glitchDescription" : "Speechless. ...",
+  "humanDescription" : "The teleporter. Too bad its corrupted.",
+  "hylotlDescription" : "This teleporter is heavily damaged.",
+  "novakidDescription" : "Ship's teleporter. I need to power her up",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "inventoryIcon" : "teleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "cityteleporterTier0.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+      "sitPosition" : [-8, 8]
+    }
+  ],
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}

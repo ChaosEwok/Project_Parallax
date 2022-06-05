@@ -1,0 +1,48 @@
+{
+  "objectName" : "spawnercity",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own city villager Simply place and then leave the planet or ship. Once you return there will be an NPC.",
+  "shortdescription" : "city Spawner",
+  "race" : "city",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "apexDescription" : "Maybe I can reverse engineer this.",
+  "avianDescription" : "What could I possibly want with citys?",
+  "floranDescription" : "Floran not sssure if want to sssummon citys.",
+  "glitchDescription" : "Concern. These were all meant to be destroyed.",
+  "humanDescription" : "What could I possibly want with citys?",
+  "hylotlDescription" : "A city spawner. These shouldn't exist.",
+  "cityDescription" : "Woo.",
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_city.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/city.animation",
+  "animationParts" : {
+    "switch" : "spawner_city.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "city" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}
