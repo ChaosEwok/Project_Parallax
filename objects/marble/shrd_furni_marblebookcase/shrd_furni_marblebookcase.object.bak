@@ -1,0 +1,57 @@
+{
+  "objectName": "shrd_furni_marblebookcase",
+  "colonyTags": ["ruins", "marble", "storage", "decorative", "silent"],
+  "rarity": "Rare",
+  "objectType": "container",
+  "tooltipKind": "container",
+  "description": "A bookcase. It has seen better days...",
+  "shortdescription": "Marble Bookcase",
+  "race": "generic",
+  "category": "storage",
+  "price": 120,
+  "lightColor": [0, 70, 110],
+  "health": 1.5,
+  "apexDescription": "This bookcase seems to be made out of marble.",
+  "avianDescription": "Some hints of gold are here.",
+  "floranDescription": "Floran hate sssilent people books. Floran put trophiess on shelf",
+  "glitchDescription": "Curious. I wonder how the people that made this bookcase made it so unique",
+  "humanDescription": "An old marble bookcase. Some chips of gold are there",
+  "hylotlDescription": "Maybe the people who made this bookcase knew white is a peaceful and hopeful color.",
+  "novakidDescription": "Some old books are in this shelf. I wonder what they were readin'.",
+  "inventoryIcon": "marblebookcaseicon.png",
+  "orientations": [
+    {
+      "imageLayers": [
+        {"image": " marblebookcaselit.png:<color>", "fullbright": true},
+        {"image": " marblebookcase.png:<color>"}
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    },
+    {
+      "imageLayers": [
+        {"image": .png" :<color>", "fullbright": true},
+        {"image": .png" :<color>"}
+      ],
+      "direction": "right",
+      "imagePosition": [-16, 0],
+      "frames": 1,
+      "animationCycle": 1,
+      "spaceScan": 0.1,
+      "anchors": ["bottom"],
+      "collision": "platform"
+    }
+  ],
+  "openSounds": ["/sfx/objects/bunkercabinet_open"],
+  "closeSounds": ["bunkercabinet_close"],
+  "slotCount": 40,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "autoCloseCooldown": 3600
+}
